@@ -67,7 +67,7 @@ export const TodoApp = () => {
   return (
     <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 pb-8 md:pb-12">
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
-        <div className="my-5 md:my-7">
+        <div className="relative my-5 md:my-7">
           <AddTodo addTodo={addTodo} />
         </div>
 
